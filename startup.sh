@@ -11,4 +11,4 @@ else
   git checkout origin/$branch
   git pull --rebase origin $branch
 fi
-/bin/bash
+$($1)
