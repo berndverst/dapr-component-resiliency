@@ -9,3 +9,4 @@ ENV remote=dapr
 ENV repo=components-contrib
 ENV branch=master
 ENTRYPOINT /bin/bash /startup.sh
+CMD ["echo 'replace this default'"]
